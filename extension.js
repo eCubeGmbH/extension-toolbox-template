@@ -24,7 +24,7 @@ tools.add({
         en: "input1, input2",
         de: "eingabe1, eingabe2"
     },
-    tags: ["Possehl"],
+    tags: ["test"],
     tests: () => {
         tools.expect(niceFunction22("hello", "world")).toBe('HELLO world');
         tools.expect(niceFunction22("Helping", "World")).toBe('HELPING world');
